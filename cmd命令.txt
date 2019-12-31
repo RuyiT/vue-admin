@@ -1,0 +1,14 @@
+fsutil file createNew test2.txt 0
+type nul > test.txt
+echo null > test.txt   创建空文件
+
+
+
+
+1.move "接收移动的文件或文件夹的路径" "是要移动到哪里去，叫什么名字" move ./abc/abc ./bbc
+2.rmdir "删除多余层文件的路径" rmdir abc
+3.move "要移动的文件名" "要改的名字"  重命名bbc  move bbc abc
+移动重复层
+
+
+ rmdir /s/q 文件名      删除文件夹以及文件夹内所有内容（/s是删除所有子目录以及其中的内容；/q是在删除时，不提示yes or no）
